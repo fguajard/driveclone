@@ -16,9 +16,25 @@
     />
   </head>
   <body>
-    
-    <h1>Contenido Aqui</h1>
+    <form action="/imagen">
+      <h4>Ingrese direccion de Imagen</h4>
+      <input type="text" name="imagen" class="form-control" />
+      <button type="submit" class="btn btn-secondary">Enviar</button>
+    </form>
 
+    <div id="listaImagenes">
+     
+    </div>
+    
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+    <!-- Axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- Bootsrap -->
 
     <script
